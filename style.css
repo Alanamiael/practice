@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Quicksand&display=swap");
+
+/* GENERAL */
 * {
   padding: 0;
   margin: 0;
@@ -8,21 +10,14 @@
   font-style: normal;
   font-weight: normal;
 }
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-:focus,
+
 :active {
   outline: none;
 }
 a {
   color: inherit;
 }
-a:focus,
+
 a:active {
   outline: none;
 }
@@ -43,8 +38,7 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 input,
-button,
-textarea {
+button {
   font-family: inherit;
 }
 input::-ms-clear {
@@ -89,13 +83,6 @@ h6 {
 .flex-around {
   display: flex;
   justify-content: space-around;
-  align-items: center;
-}
-
-.flex-between-column {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   align-items: center;
 }
 
